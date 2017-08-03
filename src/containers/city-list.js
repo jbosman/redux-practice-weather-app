@@ -23,13 +23,13 @@ class CityList extends Component {
 				<tr key={id}>
 					<td>{ name }</td>
 					<td>
-						<Graph data={temperatures} color='red' />
+						<Graph data={temperatures} color='red' units='K' />
 					</td>
 					<td>
-						<Graph data={pressures} color='blue' />
+						<Graph data={pressures} color='blue' units='hPa' />
 					</td>
 					<td>
-						<Graph data={humidity} color='green' />
+						<Graph data={humidity} color='green' units='%' />
 					</td>
 				</tr>
 			)
@@ -42,9 +42,9 @@ class CityList extends Component {
 				<thead>
 					<tr>
 						<th>City</th>
-						<th>Temperature</th>
-						<th>Pressure</th>
-						<th>Humidity</th>
+						<th>Temperature (K)</th>
+						<th>Pressure (hPa)</th>
+						<th>Humidity (%)</th>
 					</tr>
 				</thead>
 				<tbody>
