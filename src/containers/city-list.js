@@ -23,6 +23,9 @@ class CityList extends Component {
 				<tr key={id}>
 					<td>{ name }</td>
 					<td>
+						<Sparklines height={120} width={180} data={temperatures} >
+							<SparklinesLine color='red' />
+						</Sparklines>
 					</td>
 					<td>pressure</td>
 					<td>humidty</td>
