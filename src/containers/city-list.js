@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-<<<<<<< HEAD
-=======
+
 import { Sparklines, SparklinesLine } from 'react-sparklines';
->>>>>>> db50ce4b28d4e6279692fb1ddc16dd174cc3338b
+
 
 import Graph from '../components/graph';
 					   
